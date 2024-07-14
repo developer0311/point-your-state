@@ -7,7 +7,7 @@ tim.hideturtle()
 tim.penup()
 
 screen = turtle.Screen()
-image = "Day-25 (csv and pandas)/project-3/india/india.gif"
+image = "PATH_TO/india.gif"
 
 screen.addshape(image)
 turtle.shape(image)
@@ -25,7 +25,7 @@ def mark(answer_state):
     tim.write(answer_state)
 
 
-data = pandas.read_csv("Day-25 (csv and pandas)/project-3/india/Book1.csv")
+data = pandas.read_csv("PATH_TO/Book1.csv")
 all_state = data.state.tolist()
 
 guessed_state = []
